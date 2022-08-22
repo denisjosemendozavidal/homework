@@ -1,0 +1,149 @@
+
+@import url(https://fonts.google.com/specimen/Outfit);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: hsl(215, 51%, 70%); 
+    --color2: hsl(178, 100%, 50%);
+    --color3: hsl(217, 54%, 11%); 
+    --color4: hsl(216, 50%, 16%);
+    --color5: hsl(215, 32%, 27%);
+    --color6: hsl(0, 0%, 100%); 
+
+}
+
+body {
+    font-family: Outfit; 
+}
+
+/*Editing the PC container*/
+
+
+    
+
+
+    .container-pc {
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--color3);
+    align-content: center;
+    }
+
+    .everything-pc {
+        margin: auto;
+        width: 20%;
+        height: 20%;
+        border: solid;
+        background-color: var(--color4);
+        flex-direction: row;
+        border-radius: 3%;
+        
+    }
+        .everything-pc2 {
+            padding: 5%;
+            
+            
+        }
+
+            h1 {
+            color: var(--color6);
+            font-size: 150%;
+            padding-top: 5%;
+            }    
+
+
+            h2 {
+            color: var(--color5);
+            font-size: 100%;
+            padding-top: 5%;
+            }
+
+            .line {
+                height: 1%;
+                border-color: var(--color5);
+            }
+
+            .bigone {
+            width: 100%;
+            height: 50%;
+            }
+
+            .ethandtimeleft {
+                padding-top: 5%;
+                padding-bottom: 5%;
+                display: flex;
+                justify-content: space-between;
+                
+            }
+
+            
+
+            .clock {
+            color: var(--color5);
+            display: inline-block;
+            }
+
+            .timeleft {
+            color: var(--color5);
+            display: inline-block;
+            }
+
+            .ethicon {
+            display: inline-block;
+            
+            }
+
+            .ethtext {
+            color: var(--color2);
+            display: inline-block;
+            }
+
+            .avatarandcreator {
+                padding: 5%;
+                display: flex;
+                justify-content: flex-start;
+                
+            }
+
+            .avatar {
+                display: inline-block;
+                height: 10%;
+                width: 10%;
+                border: solid var(--color6);
+                border-radius: 100%;
+                
+            }
+
+            .creator {
+                display: inline-block;
+                padding-top: 5%;
+            }
+
+            .creationof {
+            color: var(--color5);
+            }
+
+            .name {
+            color: var(--color6);
+            }
+
+            .attribution { 
+                font-size: 70%; 
+                text-align: center;
+                padding: 10%;
+            }
+
+                .attribution a { 
+                color: hsl(228, 45%, 44%); 
+                }
+
+
+         
+
+
